@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700');
+body{
+   
+    font-style: normal;
+   
+}
+#wrapper {
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  z-index: 999;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #3c4a62;
+    margin: 0 0 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+html,
+body {
+    height: 100%
+    width:100%;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #687284;
+}
+
+.one{
+     background-image: url('images/slide_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+}
+.text-block {
+ 
+  bottom: 10%;
+  right: 10%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.one1{
+    margin-top: 15%;
+  top:10%;
+  bottom:10%;
+  left: 10%;
+  right: 10%;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.two2{
+    height: 20%;
+    background-color: blue;
+}
+.form-group input{
+    width: 75%;
+    align:center;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: white;
+ 
+}
+.form-group  textarea{
+    width: 75%;
+    align:center;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: white;
+ 
+}.form-group  select{
+    width: 75%;
+    align:center;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: white;
+ 
+}
+.option{
+
+   /* Fallback color */
+     background-color:#110c0e; /* Black background with 0.5 opacity */
+  color: white;
+}
+.form-group button{
+    background-color: #f39c12;
+    color: white;
+    border-color: rgb(0, 59, 255);
+}
+.quality{
+  padding: 20%;
+    margin: 5%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    border-color: black;
+    height: 100%;
+    
+}
+
